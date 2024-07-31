@@ -28,11 +28,11 @@ To run this app locally, follow these steps:
    uvicorn main:app --reload
 
 ### Frontend (React)
-cd weather-app/frontend
-
-npm install
-
-npm start
+   cd weather-app/frontend
+   
+   npm install
+   
+   npm start
 
 ## Credits
 The frontend design of this application is inspired by the following YouTube video:
