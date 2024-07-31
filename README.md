@@ -17,8 +17,7 @@ The Weather App is a web application built with React, Python, FastAPI, and Open
 To run this app locally, follow these steps:
 
 ### Backend (FastAPI)
-1. Clone the repository.
-   
+
    git clone https://github.com/Dipika99/weather-app.git
 
    cd weather-app/backend
