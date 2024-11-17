@@ -20,14 +20,14 @@ To run this app locally, follow these steps:
 
    git clone https://github.com/Dipika99/weather-app.git
 
-   cd weather-app/backend
+   cd weather-app-backend
 
    pip install -r requirements.txt
 
    uvicorn main:app --reload
 
 ### Frontend (React)
-   cd weather-app/frontend
+   cd weather-app-frontend
    
    npm install
    
