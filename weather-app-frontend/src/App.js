@@ -6,13 +6,14 @@ function App() {
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
   const debouncedCity = useDebounce(city, 500);
+  const apiBackendUrl = process.env.REACT_APP_BACKEND_URL;
 
   useEffect(() => {
     const getWeather = async () => {
       if (debouncedCity) {
         try {
           const response = await axios.get(
-            `http://127.0.0.1:8000/weather/${debouncedCity}`
+            `${apiBackendUrl}/weather/${debouncedCity}`
           );
           setWeather(response.data);
         } catch (error) {
