@@ -4,7 +4,7 @@
 The Weather App is a web application built with React, Python, FastAPI, and OpenWeather. It allows users to instantly search any city to get real-time weather updates, including temperature, humidity, and more, with a user-friendly interface.
 
 ## Working URL
-https://weather-app-1508.netlify.app
+https://weather-app-5634.netlify.app
 
 ## Features
 - Real-time weather updates
